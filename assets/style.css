@@ -1,0 +1,154 @@
+html, body {
+    background-image: url(./images/intersection.png);
+    width: 100%;
+    font-family: 'Times New Roman'
+}
+header{
+    padding:0px;
+    margin:0px;
+    border-bottom: solid #cccccc;
+}
+nav {
+    padding:0px;
+}
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.about {
+    width: 960px;
+    background-color: white;
+    padding: 20px;
+    
+}
+h1 {
+    color: #4aaaa5;
+    font-family: georgia;
+}
+#headshot {
+    float: left;
+    display: block;
+    max-width: 200px;
+    padding: 10px;
+}
+p {
+    text-align: left;
+    color: #777777;
+    line-height: 2.0em;
+    font-family: "times new roman;"
+}
+
+#name {
+    background-color:#4aaaa5;
+    color: white;
+    margin-left: 15%;
+    padding: 15px;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+.bg-custom {
+    padding:0;
+}
+#apc {
+    margin-left: 37%;
+    padding: 0px;
+}
+
+.contact {
+    width: 680px;
+    padding: 20px; 
+    background-color: white;
+    margin: 60px auto;
+
+}
+.submit {
+    background-color:#4aaaa5;
+    color: white;
+}
+#papc {
+    margin-left: 19%;
+    padding: 0px;
+
+}
+.text-block {
+    position: absolute;
+    background-color: teal;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    size: 12px;
+}
+#group1 {
+    width: 152.34px;
+    top: 21%;
+}
+
+#group2 {
+    width: 152.34px;
+    bottom:37%;
+}
+
+#group3 {
+    width: 152.34px;
+    bottom: 2%;
+}
+
+#group4 {
+    top: 21%;
+    width: 150px;
+}
+
+#group5 {
+    bottom: 38%;
+    width: 150px;
+}
+
+#cname {
+    background-color:#4aaaa5;
+    color: white;
+    margin-left: 26%;
+    padding: 15px;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+#capc {
+    margin-left: 18%;
+    padding: 0px;
+}
+
+#portfolio{
+    width: 680px;
+    padding: 40px;
+    margin: 60px auto;
+    background-color: white;
+}
+.img1{
+    max-height: 150px;
+}
+
+.img2{
+    max-width: 150px;
+   
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    border-top: 5px solid teal;
+}
+
+

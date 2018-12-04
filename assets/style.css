@@ -178,27 +178,51 @@ h4 {
     padding-bottom: 0%;
 }
     
-@media screen and (max-width: 950px) {
 
-#name, #pname, #cname {
-    padding:5px;
-    margin-left: 0%;
+@media screen and (max-width: 1000px) {
 
+    #name, #pname, #cname {
+        padding:10px;
+        position: fixed;
     }
-
-
+  
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
-#name, #pname, #cname {
-    padding:6px;
-    margin-left: 0%;
-
+    #name, #pname, #cname {
+        padding:6px;
+        position: fixed;
     }
-
-
-} */
-
   
-  
+}
+@media screen and (max-width: 850px) {
 
+    #name, #pname, #cname {
+        padding:6px;
+        position: fixed;
+    }
+  
+}
+@media screen and (max-width: 800px) {
+
+    #name, #pname, #cname {
+        padding:6px;
+        position: fixed;
+    }
+  
+}
+@media screen and (max-width: 750px) {
+
+    #name, #pname, #cname {
+        padding:6px;
+        position: fixed;
+    }
+  
+}
+@media screen and (max-width: 730px) {
+
+    #name, #pname, #cname {
+        padding:6px;
+        margin-left: 0%;
+        position: fixed;
+    }

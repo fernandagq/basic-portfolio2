@@ -9,13 +9,20 @@ header{
     border-bottom: solid #cccccc;
 }
 nav {
-    padding:0px;
+    padding-top:0px;
+    padding-bottom: 0;
 }
 .row {
     padding: 0px;
     margin: 0px;
 }
 
+.mt-0{
+    margin-top: 0 !important;
+}
+.mt-0{
+    margin-bottom: 0 !important;
+}
 .about {
     width: 960px;
     background-color: white;
@@ -40,22 +47,21 @@ p {
 }
 
 #name {
+    max-width: 250px;
     background-color:#4aaaa5;
     color: white;
-    margin-left: 15%;
-    padding: 15px;
+    margin-left: 17%;
+    padding: 10px;
     font-family: georgia;
     font-weight: bold;
     font-size: 25px;
-    margin-bottom:0px;
-    margin-top: 0px;
+    top: 0%;
+    position: fixed;
 }
-.bg-custom {
-    padding:0;
-}
+
 #apc {
-    margin-left: 37%;
-    padding: 0px;
+    margin-left: 70%;
+    padding: 10px;
 }
 
 .contact {
@@ -70,17 +76,30 @@ p {
     color: white;
 }
 #papc {
-    margin-left: 19%;
-    padding: 0px;
+    margin-left: 61%;
+    padding: 10px;
 
 }
+#pname {
+    max-width: 250px;
+    background-color:#4aaaa5;
+    color: white;
+    margin-left: 25%;
+    padding: 10px;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 25px;
+    top: 0%;
+    position: fixed;
+}
+
 .text-block {
     position: absolute;
     background-color: teal;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    size: 12px;
+    font-size: 8px;
 }
 #group1 {
     width: 152.34px;
@@ -106,36 +125,43 @@ p {
     bottom: 38%;
     width: 150px;
 }
+h4 {
+    font-size: 14px;
+    text-align: center;
+}
 
 #cname {
+    max-width: 250px;
     background-color:#4aaaa5;
     color: white;
-    margin-left: 26%;
-    padding: 15px;
+    margin-left: 25%;
+    padding: 10px;
     font-family: georgia;
     font-weight: bold;
     font-size: 25px;
-    margin-bottom:0px;
-    margin-top: 0px;
+    top: 0%;
+    position: fixed;
 }
 
 #capc {
-    margin-left: 18%;
-    padding: 0px;
+    margin-left: 61%;
+    padding: 50px;
 }
 
 #portfolio{
     width: 680px;
-    padding: 40px;
+    padding: 20px;
     margin: 60px auto;
     background-color: white;
 }
 .img1{
     max-height: 150px;
+    font-size: 8px;
 }
 
 .img2{
     max-width: 150px;
+    font-size: 8px;
    
 }
 
@@ -149,6 +175,30 @@ p {
     color: white;
     text-align: center;
     border-top: 5px solid teal;
+    padding-bottom: 0%;
 }
+    
+@media screen and (max-width: 950px) {
 
+#name, #pname, #cname {
+    padding:5px;
+    margin-left: 0%;
+
+    }
+
+
+}
+/* @media screen and (max-width: 768px) {
+
+#name, #pname, #cname {
+    padding:6px;
+    margin-left: 0%;
+
+    }
+
+
+} */
+
+  
+  
 

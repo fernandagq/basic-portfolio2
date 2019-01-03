@@ -34,7 +34,7 @@ h1 {
     font-family: georgia;
 }
 #headshot {
-    float: left;
+    
     display: block;
     max-width: 200px;
     padding: 10px;
@@ -155,12 +155,12 @@ h4 {
     background-color: white;
 }
 .img1{
-    max-height: 150px;
+    max-height: 300px;
     font-size: 8px;
 }
 
 .img2{
-    max-width: 150px;
+    max-width: 300px;
     font-size: 8px;
    
 }
